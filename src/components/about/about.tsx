@@ -6,7 +6,7 @@ const About = () => {
       <h2>About Us</h2>
       <p>
         Cutler Storage spans over 8 acres, offering secure RV and auto storage
-        solutions. Looking for land to farm? We're happy to discuss logistics
+        solutions. Looking for land to farm? We&apos;re happy to discuss logistics
         and lease terms to suit your needs.
       </p>
     </section>
