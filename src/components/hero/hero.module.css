@@ -1,0 +1,64 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #1a73e8, #1a1a1a); /* Smooth gradient background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out; /* Subtle fade-in animation */
+}
+
+.hero h1 {
+    font-size: 4rem; /* Modern, bold title for desktop */
+    font-family: 'Poppins', sans-serif; /* Sleek, modern font */
+    color: white; /* Keep the title bold and clean */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle text shadow for depth */
+}
+
+.hero p {
+    font-size: 1.25rem; /* Slightly smaller tagline for a balanced look */
+    color: #f0f0f0; /* Softer white for contrast */
+    max-width: 800px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif; /* Clean, easy-to-read font */
+}
+
+/* Add responsiveness with media queries */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem; /* Smaller title for tablets and small screens */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Adjust tagline size for readability */
+        max-width: 90%; /* Use more of the screen width */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem; /* Even smaller title for very small screens */
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 0.9rem; /* Compact tagline */
+    }
+
+    .hero {
+        padding: 10px; /* Reduce padding for small devices */
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
