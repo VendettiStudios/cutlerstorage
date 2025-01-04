@@ -8,3 +8,14 @@
   .footer p {
     margin: 5px 0;
   }
+
+
+  .no-link-style {
+    color: inherit; /* Use the same color as surrounding text */
+    text-decoration: none; /* Remove underline */
+  }
+
+  .href{
+    color: inherit; /* Optional: in case there's an auto-linking for tel: */
+    text-decoration: none;
+  }

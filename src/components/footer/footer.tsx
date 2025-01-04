@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <p>© {new Date().getFullYear()} Cutler Storage. All rights reserved.</p>
-      <p>Contact us: info@cutlerstorage.com</p>
-      <p>(858) 224-3598</p>
+      <p>Contact us: <a className={styles.href} href="mailto:info@cutlerstorage.com">info@cutlerstorage.com</a></p>
+<p className={styles.noLinkStyle}>(858) 224-3598</p>
     </footer>
   );
 };
