@@ -1,0 +1,29 @@
+/* whyUs.module.css */
+.whyUs {
+    padding: 2rem;
+    background-color: #dbdde2;
+    /* border-radius: 8px; */
+    /* margin: 1.5rem 0; */
+  }
+  
+  .whyUs h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    /* color: #333; */
+  }
+  
+  .benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .benefits li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    /* color: #555; */
+  }
+  
+  .benefits li strong {
+    color: #000;
+  }
