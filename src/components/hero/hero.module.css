@@ -8,7 +8,31 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+    position: relative; /* To position the contact info */
     animation: fadeIn 1s ease-in-out; /* Subtle fade-in animation */
+}
+
+.contact {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+.contact p {
+    margin: 0;
+    color: #f0f0f0; /* Softer white */
+}
+
+.contact a {
+    color: #1a73e8; /* Highlighted link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 .hero h1 {
@@ -51,6 +75,12 @@
 
     .hero {
         padding: 10px; /* Reduce padding for small devices */
+    }
+
+    .contact {
+        top: 10px;
+        right: 10px;
+        font-size: 0.8rem;
     }
 }
 
