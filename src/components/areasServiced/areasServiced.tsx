@@ -5,7 +5,7 @@ const AreasServiced = () => {
     <section className={styles.areasServiced}>
       <h2>Areas We Serve</h2>
       <p>
-        Based in the heart of **Cutler**, Cutler Storage offers secure storage and land leasing solutions for Tulare County and nearby communities.
+        Based in the heart of Cutler, Cutler Storage offers secure storage and land leasing solutions for Tulare County and nearby communities.
       </p>
       <ul className={styles.locations}>
         <li>Cutler</li>
